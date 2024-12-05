@@ -1,0 +1,8 @@
+# Specify the standard version of C++ to be used
+CXX_STD = CXX17
+
+# Define the directories for header files and compilation flags
+PKG_CXXFLAGS = -I$(shell pwd)
+
+# Add necessary libraries (leave empty if no additional libraries are needed)
+PKG_LIBS =
